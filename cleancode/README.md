@@ -37,7 +37,7 @@ Sempre procure a causa raiz do problema, nunca resolva as coisas superficialment
 Tente sempre procurar a causa raiz e resolver assim o problema de uma vez por todas!
 
 
-[1. Design](./01 - design.md)
+[1. Design](01 - design.md)
 
 [2. Entendimento do código](./02 - entendimento codigo.md)
 
