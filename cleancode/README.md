@@ -37,23 +37,23 @@ Sempre procure a causa raiz do problema, nunca resolva as coisas superficialment
 Tente sempre procurar a causa raiz e resolver assim o problema de uma vez por todas!
 
 
-[1. Design](01 - design.md)
+[1. Design](01-design.md)
 
-[2. Entendimento do código](./02 - entendimento codigo.md)
+[2. Entendimento do código](./02-entendimento_codigo.md)
 
-[3. Nomes](./03 - nomes.md)
+[3. Nomes](./03-nomes.md)
 
-[4. Funções e Métodos](./04 - funcs e metodos.md)
+[4. Funções e Métodos](./04-funcs_e_metodos.md)
 
-[5. Comentários](./05 - comentarios.md)
+[5. Comentários](./05-comentarios.md)
 
-[6. Estrutura do Código](./06 - estrutura codigo.md)
+[6. Estrutura do Código](./06-estrutura_codigo.md)
 
-[7. Objetos e Structs](./07 - objetos e structs.md)
+[7. Objetos e Structs](./07-objetos_e_structs.md)
 
-[8. Testes](./08 - testes.md)
+[8. Testes](./08-testes.md)
 
-[9. Code Smells](./09 - codesmells.md)
+[9. Code Smells](./09-codesmells.md)
 
 
 ## Fontes
