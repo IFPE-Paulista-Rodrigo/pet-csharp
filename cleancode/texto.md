@@ -4,7 +4,7 @@
 
 Por que estamos falando tanto sobre código limpo (Clean Code) e por que isto é tão importante para nós? De fato a manutenção de um software é tão importante quanto sua construção.
 
-Como relatado por Robert C. Martin em seu livro clássico, Clean Code, um Best Seller da nossa área, algumas práticas e visões são importantíssimas para mantermos a vida do nosso software.
+Como relatado por Robert C. Martin em seu livro clássico, [Clean Code](https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/), um Best Seller da nossa área, algumas práticas e visões são importantíssimas para mantermos a vida do nosso software.
 
 **IMPORTANTE** Este artigo não descarta a leitura do livro, que é muito mais denso e profundo sobre o assunto.
 
