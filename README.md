@@ -1,2 +1,2 @@
 # pet-csharp
-Capacitação em .Net do IFPE/SiDI
+Capacitação em .Net do IFPE/SiDi
