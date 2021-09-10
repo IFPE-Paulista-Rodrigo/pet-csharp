@@ -23,9 +23,7 @@ namespace MetodosCsharp
                 // output the count of types and their methods
                 Console.WriteLine(
                 "{0:N0} types with {1:N0} methods in {2} assembly.",
-                arg0: a.DefinedTypes.Count(),
-                arg1: methodCount,
-                arg2: r.Name);
+                a.DefinedTypes.Count(), methodCount, r.Name);
             }
         }
     }
