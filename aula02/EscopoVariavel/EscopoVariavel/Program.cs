@@ -9,10 +9,10 @@ namespace EscopoVariavel
         {
             // Preço da Gasolina
             Console.WriteLine("Informe o valor da gasolina");
-            double valorLitro = double.Parse(Console.ReadLine());
+            double valorLitro = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             
             Console.WriteLine("Informe a quantidade de litros");
-            double litros = double.Parse(Console.ReadLine());
+            double litros = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             double desconto = 0;
             double valorFinal = litros * valorLitro;
             // Se for > 100 litros tem 10% de desconto no valor final
@@ -24,6 +24,7 @@ namespace EscopoVariavel
                 valorFinal -= desconto;
             }
             
+
             Console.WriteLine("O desconto foi " + desconto.ToString("F2", CultureInfo.InvariantCulture) + " e o " +
                 "valor a pagar será: R$ " + valorFinal.ToString("F2", CultureInfo.InvariantCulture));
 
