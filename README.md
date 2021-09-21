@@ -6,3 +6,5 @@
 
 ## Material Complementar
 [Guia do C# - Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+
+[Pro GIT (Livro)](https://git-scm.com/book/pt-br/v2)
