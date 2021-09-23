@@ -9,6 +9,7 @@ namespace OOClasse
     class Rectangle
     {
         public readonly float Width, Height;
+        public static readonly string name;
 
         public Rectangle (float width, float height)
         {
@@ -16,7 +17,7 @@ namespace OOClasse
             Height = height;
         }
 
-        public void Descontruct(out float width, out float height)
+        public void Deconstruct(out float width, out float height)
         {
             width = Width;
             height = Height;
