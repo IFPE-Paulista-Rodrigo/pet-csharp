@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace OOClasse
 {
-    class Octopus
+    class Pessoa
     {
         public string Name;
-        public int Age = 10;
+        public int Idade;
     }
 }

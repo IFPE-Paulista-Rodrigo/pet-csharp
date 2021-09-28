@@ -4,15 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOClasse
+namespace OOClasse.Metodos
 {
-    class ExampleMethod
+    public class ExampleMethod
     {
         /* Expression-bodied methods */ 
 
-        //private int Foo(int x) { return x * 2; }
-        private int Foo (int x) => x * 2;
         
-        void FooBar(int x) => Console.WriteLine(x);
+        /*public int Foo(int x) 
+        { 
+            return x * 2; 
+        }*/
+        
+        public int Foo (int x) => x * 2;
+        
+        public void FooBar(int x) => Console.WriteLine(x);
     }
 }

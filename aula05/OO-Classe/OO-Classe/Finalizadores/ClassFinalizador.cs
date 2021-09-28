@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOClasse
+namespace OOClasse.Finalizadores
 {
-    class Octopus
+    class ClassFinalizador
     {
-        public string Name;
-        public int Age = 10;
+
+        ~ClassFinalizador() => Console.WriteLine("Finalizando classe");
     }
 }

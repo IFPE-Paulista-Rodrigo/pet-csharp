@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOClasse
+namespace OOClasse.Partial
 {
-    class Octopus
+    partial class PaymentForm
     {
-        public string Name;
-        public int Age = 10;
+        partial void ValidatePayment(decimal amount);
     }
 }

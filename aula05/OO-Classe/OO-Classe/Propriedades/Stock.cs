@@ -4,15 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOClasse
+namespace OOClasse.Propriedades
 {
-    class Stock
+    class Stock2
     {
-        decimal currentPrice; // The private "backing" field
-        public decimal CurrentPrice // The public property
+        
+        public decimal CurrentPrice { get; set; }
+        
+        public void method()
         {
-            get { return currentPrice; }
-            set { currentPrice = value; }
+            this.CurrentPrice = 20;
         }
+
+        
     }
 }

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOClasse
+namespace OOClasse.Constructor
 {
-    class Octopus
+    class TestStatic
     {
-        public string Name;
-        public int Age = 10;
+        static TestStatic() => Console.WriteLine("Type Initialized"); 
+
     }
 }
