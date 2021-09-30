@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace OO2.Generics
 {
-    public class Stack<T>
+
+    public class NPC{ }
+
+    public class Stack<T> where T : IComparable
     {
-        int position;
+        int position = 0;
         T[] data = new T[100];
         public void Push(T obj) => data[position++] = obj;
         public T Pop() => data[--position];

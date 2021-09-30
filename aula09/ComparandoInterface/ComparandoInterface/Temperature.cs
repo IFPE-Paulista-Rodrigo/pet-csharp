@@ -21,6 +21,10 @@ namespace ComparandoInterface
 
         public int CompareTo(object obj)
         {
+            /* 1 se eu for maior
+             * 0 se formos iguais
+             * -1 se eu for menor
+             */
             if (obj == null) return 1;
 
             Temperature otherTemperature = obj as Temperature;
