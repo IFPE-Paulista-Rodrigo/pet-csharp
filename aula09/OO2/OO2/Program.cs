@@ -2,6 +2,7 @@
 using OO2.Interfaces;
 using OO2.Delegate;
 using OO2.Generics;
+using OO2.Excecao;
 
 namespace OO2
 {
@@ -64,12 +65,38 @@ namespace OO2
              Console.WriteLine(count);*/
 
 
-            Person harry = new Person() { Name = "Harry" };
-            harry.Shout = HarryShout;
-            harry.Poke();
-            harry.Poke();
-            harry.Poke();
-            harry.Poke();
+            /*            Person harry = new Person() { Name = "Harry" };
+                        harry.Shout = HarryShout;
+                        harry.Poke();
+                        harry.Poke();
+                        harry.Poke();
+                        harry.Poke();
+            */
+
+            try {
+                //double retorno = TestException.Divisao(20, 2);
+                //Console.WriteLine(retorno);
+
+                TestException.MethodTestThrow();
+            }catch (DivideByZeroException ex)
+            {
+                Console.WriteLine("Deu uma exceção");
+                
+            }
+            catch (MyException ex)
+            {
+                Console.WriteLine("Entrou no catch do MyException ");
+                Console.WriteLine(ex);
+            }
+            finally
+            {
+                Console.WriteLine("Finally executou!");
+            }
+
+            Console.WriteLine("Código após exception");
+            
+
+
 
         }
 
